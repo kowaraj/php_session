@@ -18,10 +18,11 @@ session_start();
         if( isset($_SESSION['user_id'])){
         ?>
         <p>Go to the <a href="private.php">PRIVATE PAGE</a>.</p>
+        <p>Go to the <a href="private2.php">PRIVATE PAGE #2</a>.</p>
         <?php
         }
         ?>
-        
+
     </main>
 </body>
 </html>
